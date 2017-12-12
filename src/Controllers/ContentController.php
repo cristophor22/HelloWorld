@@ -13,4 +13,10 @@ class ContentController extends Controller {
 
     }
 
+    public function sayHelloMan( Twig $twig ):string {
+
+        return $twig->render( 'HelloWorld::content.helloMan' );
+
+    }
+
 }
